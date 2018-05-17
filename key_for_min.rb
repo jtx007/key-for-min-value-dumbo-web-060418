@@ -10,7 +10,7 @@ def key_for_min_value(name_hash)
       key_for_less = key
     end
   end
-  lowest_value
+  key_for_less
 end
 
 name_hash={:blake => 500, :ashley => 2, :adam => 1}
